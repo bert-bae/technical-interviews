@@ -1,7 +1,7 @@
-const HistoryList = ({ history, onItemClick }) => {
+const CheckList = ({ items, onItemClick }) => {
   let listItems = [];
 
-  history.forEach((i) => {
+  items.forEach((i) => {
     listItems.push(
       <li
         className="clickable"
@@ -17,4 +17,4 @@ const HistoryList = ({ history, onItemClick }) => {
   return <ul>{listItems}</ul>;
 };
 
-export default HistoryList;
+export default CheckList;
