@@ -1,7 +1,7 @@
-const CheckList = ({ items, onItemClick }) => {
+const CheckList = ({ history, onItemClick }) => {
   let listItems = [];
 
-  items.forEach((i) => {
+  history.forEach((i) => {
     listItems.push(
       <li
         className="clickable"

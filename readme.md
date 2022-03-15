@@ -10,8 +10,11 @@ By the end of these exercises, the following functionality should be working:
   - If there is no further history to `undo`, the search input should contain no value.
 
 - Able to display the search history list
+
   - If there is no search history to display, the `Search History` header should not be visible. If there is history, then the `Search History` header should be visible.
+
   - If the user clicks an individual search history item, the value of the search input should update to the clicked history.
+
     - In this particular scenario, the history should only maintain history prior to the clicked history item.
 
 ### Exercise 1 (Code Review):
