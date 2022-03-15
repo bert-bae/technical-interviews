@@ -19,9 +19,13 @@ By the end of these exercises, the following functionality should be working:
 
 ### Exercise 1 (Code Review):
 
-Review the code and provide feedback as if you were providing a review to a colleague.
+Review the `gif` in `public/images/basic-functionality.gif`. This is what the basic functionality should be.
 
-You should also QA the code to identify any existing issues.
+- Review the code and identify any bugs (look for differences between the actual versus the gif).
+- Review the code and provide feedback as if you were providing a review to a colleague in terms of:
+  - React standards
+  - Code cleanliness
+  - Readability
 
 ### Exercise 2 (Implementing useSearchHistory custom hook):
 
@@ -32,7 +36,11 @@ Refactor the code to implement the `useSearchHistory` custom hook. This hook sho
 - Ability to undo from the history
 - Ability to force update the history list
 
+In `hooks/useSearchHistory.js`, there are some example code to get you started. Refactor the code to use this hook.
+
 ### Exercise 3 (Implementing debounce on search):
+
+Review the `gif` in `public/images/debounce.gif`. This is what the debounce functionality should look like.
 
 Instead of the history being added to by using the `search` button, we want to track the input changes with a debounce. When a user types into the search input, the application should add to the `history` after a delay.
 
